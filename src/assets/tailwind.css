@@ -2,4 +2,38 @@
 
 @tailwind components;
 
+.navigation {
+  @apply .font-medium .font-avenir .text-xs .text-gray-500;
+}
+
+.navigation .router-link-exact-active {
+  @apply .text-brand-pink;
+}
+
+.navigation div:hover {
+  @apply .cursor-pointer;
+}
+
+.reverse-shadow {
+  box-shadow: 1px 0 16px 0 rgba(0, 0, 0, 0.1), 1px 0 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.badge {
+  @apply .font-sans .font-normal;
+  font-size: 0.75rem;
+  min-height: 1rem;
+  min-width: 1rem;
+  line-height: 1;
+  display: inline-flex;
+  box-shadow: none;
+  border-radius: 290486px;
+  transform: translate(50%, -50%);
+  white-space: nowrap;
+  align-items: center;
+  text-align: center;
+  padding: 0.1rem 0.25rem;
+  justify-content: center;
+  margin: 0;
+}
+
 @tailwind utilities;

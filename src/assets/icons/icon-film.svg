@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
+  <g id="icon-film" transform="translate(-2 -3)">
+    <path id="Path_3" data-name="Path 3" d="M4,3H20a2,2,0,0,1,2,2V19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2.006,2.006,0,0,1,4,3ZM4,5V7H6V5ZM4,9v2H6V9Zm0,4v2H6V13Zm0,4v2H6V17ZM18,5V7h2V5Zm0,4v2h2V9Zm0,4v2h2V13Zm0,4v2h2V17Z" fill="#b8c2cc"/>
+    <path id="Path_4" data-name="Path 4" d="M9,5h6a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1H9a1,1,0,0,1-1-1V6A1,1,0,0,1,9,5Zm0,8h6a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1H9a1,1,0,0,1-1-1V14A1,1,0,0,1,9,13Z" fill="#f1f5f8"/>
+  </g>
+</svg>
