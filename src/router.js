@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Account from "./views/Account.vue";
+import CategoryIndex from "./views/Category/Index.vue";
 
 Vue.use(Router);
 
@@ -18,6 +19,11 @@ export default new Router({
       path: "/account",
       name: "account",
       component: Account
+    },
+    {
+      path: "/movies",
+      name: "CategoryIndex",
+      component: CategoryIndex
     }
   ]
 });

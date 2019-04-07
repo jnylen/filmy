@@ -25,7 +25,7 @@
           </svg>        
         </div>
       </div>
-      <div class="flex items-center pt-4 overflow-x-auto">
+      <div class="flex items-center pt-4">
         <MovieItem v-for="movie in recent" :movie="movie" :key="movie.id" />
       </div>
     </div>
@@ -60,12 +60,12 @@ export default {
     }
   },
   mounted () {
-    axios.get('movies?release_date_gte=' + this.getCurrentDate()).then((result) => {
+    axios.get('movies?_limit=2&release_date_gte=' + this.getCurrentDate()).then((result) => {
       this.upcoming = result.data
     }).catch((err) => {
       console.log(err);
     });
-    axios.get('movies?release_date_lte=' + this.getCurrentDate()).then((result) => {
+    axios.get('movies?_limit=2&release_date_lte=' + this.getCurrentDate()).then((result) => {
       this.recent = result.data
     }).catch((err) => {
       console.log(err);
