@@ -25,6 +25,110 @@
       "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/4rEU3xFU9vj0qkk0oRAyHF9CzQO.jpg",
       "landscape": "https://image.tmdb.org/t/p/w500_and_h282_face/6mwMpsP2lhFBhuULFNHBSCVC7w3.jpg",
       "trailer": "https://www.youtube.com/watch?v=Mj18aFsAT1E"
+    },
+    {
+      "id": 2,
+      "name": "High Life",
+      "synopsis": "Monte and his baby daughter are the last survivors of a damned and dangerous mission to the outer reaches of the solar system. They must now rely on each other to survive as they hurtle toward the oblivion of a black hole.",
+      "release_date": "2019-05-01",
+      "director": ["Claire Denis"],
+      "runtime": 110,
+      "actors": [
+        {
+          "name": "Robert Pattison",
+          "role": "Monte"
+        },
+        {
+          "name": "Juliette Binoche",
+          "role": "Dr Dibs"
+        },
+        {
+          "name": "André Benjamin",
+          "role": "Tcherny"
+        }
+      ],
+      "price": 69,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/wElOvH7H6sLElsTOLu1MY6oWRUx.jpg",
+      "landscape": "https://image.tmdb.org/t/p/w533_and_h300_bestv2/Ae7N1zenSoalAGsf2UXbQIxX6Pp.jpg",
+      "trailer": "https://www.youtube.com/watch?v=AtOwfo1ypOw"
+    },
+    {
+      "id": 3,
+      "name": "Dumbo",
+      "synopsis": "A young elephant, whose oversized ears enable him to fly, helps save a struggling circus, but when the circus plans a new venture, Dumbo and his friends discover dark secrets beneath its shiny veneer.",
+      "release_date": "2019-05-01",
+      "director": ["Tim Burton"],
+      "runtime": 90,
+      "actors": [
+        {
+          "name": "Colin Farrell",
+          "role": "Holt Farrier"
+        },
+        {
+          "name": "Michael Keaton",
+          "role": "V. A. Vandemere"
+        },
+        {
+          "name": "Danny DeVito",
+          "role": "Max Medici"
+        }
+      ],
+      "price": 149,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/iYwKQAO1LwLpInMMdvmYChrRlHN.jpg",
+      "landscape": "https://image.tmdb.org/t/p/w500_and_h282_face/tz27bm8LAqK0SlX8TwXrtS9OiBB.jpg",
+      "trailer": "https://www.youtube.com/watch?v=7NiYVoqBt-8"
+    },
+    {
+      "id": 4,
+      "name": "How to Train Your Dragon: The Hidden World",
+      "synopsis": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested…",
+      "release_date": "2019-02-22",
+      "director": ["Dean DeBlois"],
+      "runtime": 104,
+      "actors": [
+        {
+          "name": "Jay Baruchel",
+          "role": "Hiccup (röst)"
+        },
+        {
+          "name": "America Ferrera",
+          "role": "Astrid (röst)"
+        },
+        {
+          "name": "F. Murray Abraham",
+          "role": "Grimmel (röst)"
+        }
+      ],
+      "price": 199,
+      "poster": "https://image.tmdb.org/t/p/w185_and_h278_bestv2/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+      "landscape": "https://image.tmdb.org/t/p/w500_and_h282_face/h3KN24PrOheHVYs9ypuOIdFBEpX.jpg",
+      "trailer": "https://www.youtube.com/watch?v=qNGLuCijKZ0"
+    },
+    {
+      "id": 5,
+      "name": "Glass",
+      "synopsis": "In a series of escalating encounters, security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
+      "release_date": "2019-01-01",
+      "director": ["M. Night Shyamalan"],
+      "runtime": 129,
+      "actors": [
+        {
+          "name": "James McAvoy",
+          "role": "Kevin Wendell Crumb"
+        },
+        {
+          "name": "Bruce Willis",
+          "role": "David Dunn / The Overseer"
+        },
+        {
+          "name": "Samuel L. Jackson",
+          "role": "Elijah Price / Mr. Glass"
+        }
+      ],
+      "price": 199,
+      "poster": "https://image.tmdb.org/t/p/w220_and_h330_face/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg",
+      "landscape": "https://image.tmdb.org/t/p/w500_and_h282_face/lvjscO8wmpEbIfOEZi92Je8Ktlg.jpg",
+      "trailer": "https://www.youtube.com/watch?v=95ghQs5AmNk"
     }
   ]
 }
