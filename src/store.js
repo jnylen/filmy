@@ -4,7 +4,6 @@ import Vuex from "vuex";
 const debug = process.env.NODE_ENV !== "production";
 
 const UPDATE_MOVIES = "UPDATE_MOVIES";
-const SET_LOADING = "SET_LOADING";
 const UPDATE_CART = "UPDATE_CART";
 
 Vue.use(Vuex);
@@ -12,8 +11,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     movies: [],
-    cart: [],
-    loading: false
+    cart: []
   },
   getters: {
     getMovieById: state => id => {
@@ -33,14 +31,9 @@ export default new Vuex.Store({
     },
     [UPDATE_CART](state, payload) {
       state.cart = payload.data;
-    },
-    [SET_LOADING](state, loading) {
-      state.loading = loading;
     }
   },
   actions: {
-    getMovies({ commit }) {
-      commit(SET_LOADING, true);
-    }
+    getMovies({ commit }) {}
   }
 });
