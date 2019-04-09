@@ -5,35 +5,33 @@ const debug = process.env.NODE_ENV !== "production";
 
 const UPDATE_MOVIES = "UPDATE_MOVIES";
 const UPDATE_CART = "UPDATE_CART";
+const ADD_CART = "ADD_CART";
+const REMOVE_CART = "REMOVE_CART";
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    movies: [],
     cart: []
   },
   getters: {
-    getMovieById: state => id => {
-      return state.movies.find(movie => movie.id === id);
-    },
-    recentlyReleased: state => {
-      return [];
+    inCart: state => id => {
+      return typeof state.cart.find(movie => movie.id === id) !== "undefined";
     },
     amountCart: state => {
       return state.cart.length;
-    },
-    comingMovies: state => {}
-  },
-  mutations: {
-    [UPDATE_MOVIES](state, payload) {
-      state.movies = payload.data;
-    },
-    [UPDATE_CART](state, payload) {
-      state.cart = payload.data;
     }
   },
-  actions: {
-    getMovies({ commit }) {}
-  }
+  mutations: {
+    [UPDATE_CART](state, payload) {
+      state.cart = payload.data;
+    },
+    [ADD_CART](state, payload) {
+      state.cart.push(payload);
+    },
+    [REMOVE_CART](state, payload) {
+      state.cart.splice(payload, 1);
+    }
+  },
+  actions: {}
 });
